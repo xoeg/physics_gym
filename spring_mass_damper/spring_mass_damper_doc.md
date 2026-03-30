@@ -30,7 +30,7 @@ x\\v
 $$
 
 ## Cost functional
-At this stage it is convenient to introduce a cost functional $\mathcal{J}(\boldsymbol{y}, \boldsymbol{p})$ where $\boldsymbol{p}$ is a vecvtor of parameters 
+At this stage it is convenient to introduce a cost functional $\mathcal{J}(\boldsymbol{y}, \boldsymbol{p})$ where $\boldsymbol{p}$ is a vector of parameters 
 
 $$
 \boldsymbol{p} = 
@@ -38,5 +38,13 @@ $$
 k \\ c \\ m
 \end{bmatrix}, 
 $$
+
+Examples of cost functionals are the energy of the system:
+
+$$
+\mathcal{J}(\boldsymbol{y}, \boldsymbol{p})
+= \int_0^t \frac{1}{2}mv^2 + \frac{1}{2} kx^2 \ \mathrm{d}t
+$$ 
+
 
 ## Adjoint equations
