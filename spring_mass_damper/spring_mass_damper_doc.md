@@ -2,9 +2,11 @@
 
 
 Given a spring of stiffness $k$ a damper with coefficient $c$ and a mass $m$, Newton's second law states that:
+
 $$
 m\ddot{x} = -kx - c\dot{x}.
 $$
+
 Rewriting in state space, using $v = \dot{x}$, we have that:
 $$
 \frac{\mathrm{d}\boldsymbol{y}}{\mathrm{d}t} = \boldsymbol{A}\boldsymbol{y}, 
