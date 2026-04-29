@@ -29,6 +29,13 @@ x\\v
 \end{bmatrix}
 $$
 
+## Analytic solutions
+We can find the analytic solution to these equations using the matrix exponential such that
+
+$$
+\boldsymbol{y} = exp(At)y0
+$$
+
 ## Cost functional
 At this stage it is convenient to introduce a cost functional $\mathcal{J}(\boldsymbol{y}, \boldsymbol{p})$ where $\boldsymbol{p}$ is a vector of parameters 
 
